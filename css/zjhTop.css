@@ -1,0 +1,209 @@
+
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		a{
+			text-decoration: none;
+			color: antiquewhite;
+		}
+		#all{
+			width: 1920px;
+			height: 280px;
+			border: 1px solid white;
+		}
+		#zjhalltop{
+			width: 1920px;
+			height: 35px;
+			background-color: #333333;
+		/*	opacity: 0.8;*/
+		}
+		#zjhalltop1{
+			width: 150px;
+			height: 35px;
+			margin-left: 400px;
+			line-height: 35px;
+			float: left;
+			font-family: "黑体";
+		}
+		#zjhalltop2{
+			width: 50px;
+			height: 35px;
+			float: left;
+			margin-top: 2px;
+			line-height: 35px;
+		}
+		#zjhalltop3{
+			width: 250px;
+			height: 35px;
+			float: left;
+			overflow: hidden;
+		}
+		#zjhalltop3 ul,li{
+			margin: 0px;
+			padding: 0px;
+		}
+		#zjhalltop3 li{
+			list-style: none;
+			height: 35px;
+			line-height: 35px;
+		}
+		#zjhalltop4{
+			width: 600px;
+			height: 35px;
+			border: 1px solid wr;
+			float: left;
+			margin-left: 200px;
+			margin-top: -15px;
+		}
+		#zjherweimazi{
+			color: #D2691E;
+			margin-top: -30px;
+			margin-left: 10px;
+		}
+		#zjherweima{
+			position: absolute;
+			margin-left: -60px;
+			display: none;
+		}
+		
+		
+		
+		#zjhalltop4 li{
+			list-style: none;
+			float: left;
+			color: white;
+			margin-left: 15px;
+			margin-top: 15px;
+			line-height: 35px;
+		}
+		#zjhalltopul li a{
+			font-size: 12px;
+		}
+		
+		#yincang{
+			position: absolute;
+			z-index: 10;
+			border: 1px solid #DEB887;
+			width: 80px;
+			height: 140px;
+			margin-left: -10px;
+			display: none;
+			background-color: white;
+		}
+		#yincang li{
+			list-style: none;
+			color: purple;
+			clear: left;
+			width: 60px;
+			margin-top: -15px;
+			margin-left: 10px;
+			line-height: 50px;
+		}
+		#yincang li a{
+			color: black;
+		}
+		#yincang li a:hover{
+			color: #D2691E;
+		}
+		#zjhtopa1{
+			position: absolute;
+			width: 220px;
+			height: 100px;
+			margin-left: 850px;
+			margin-top: 50px;
+			background-image: url(../img/zjhyanxuan.png);
+			background-position: 10px 400px;
+			float: left;
+		}
+		#zjhtopa2{
+			/*input+搜索图片+购物车的div*/
+			position: absolute;
+			width: 500px;
+			height: 100px;
+			margin-left: 1300px;
+			float: left;
+			margin-top: 70px;
+			
+		}
+		#zjhtopa2a{
+			width: 200px;
+			height: 30px;
+			margin-top: 30px;
+			float: left;
+		}
+		#zjhinput{
+			width: 200px;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			outline: none;
+		}
+		#zjhinputxiala{
+			position: absolute;
+			width: 200px;
+			height: 120px;
+			border: 1px solid white;
+			display: none;
+			margin-top: -1px;
+			background-color: #F0F8FF;
+		}
+		#zjhinputxiala li{	
+			list-style: none;
+			color: white;
+			height: 25px;
+			display: none;
+		}
+		#zjhtopa2b{
+			width: 40px;
+			height: 40px;
+			float: left;
+			margin-top: 25px;
+			margin-left: 10px;
+			background-position: 0px 235px;
+		}
+		/*#zjhtopa2c{
+			width: 50px;
+			height: 50px;
+			float: left;
+			border: 1px solid red;
+			margin-top: 10px;
+			margin-left: 10px;
+			background-image: url(img/zjhyanxuan.png);
+			background-position: 0px 655px;
+		}*/
+		#zjhtopa2c{
+			width: 24px;
+			height: 24px;
+			background-image: url(../img/ShoppingCart.png);
+			float: left;
+			margin-top: 30px;
+			margin-left: 2px;
+		}
+		
+		
+		
+		/*input下拉框背景颜色*/
+		.zjhcolor{
+			background-color: #DEB887;
+		}
+		
+		#zjhzhutilan{
+			width: 1200px;
+			height: 30px;
+			margin-top: 200px;
+			margin-left: 350px;
+		}
+		#zjhzhutilanul li{
+			list-style: none;
+			float: left;
+			margin-left: 40px;
+		}
+		#zjhzhutilanul li a{
+			color: #000000;
+			font-weight: bold;
+			
+		}
+		
+		
+		

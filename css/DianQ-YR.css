@@ -1,0 +1,273 @@
+#DianQi{
+	border: 0px solid yellow;
+	width:1928px ;
+	height: 850px;
+	margin-left: 0,auto;
+	overflow: hidden;
+}
+.DianQi{
+	border: 0px solid red;
+	width:1100px ;
+	height: 850px;
+	margin-left: 400px;
+}
+#DianQi-top{
+	border: 1px solid white;
+	width:1090px ;
+	height: 95px;
+
+}
+.DianQi-top-name{
+	border: 1px solid white;
+	width:60px ;
+	height: 50px;
+	margin-top: 60px;
+}
+.DianQi-top-name a{
+	color: black;
+	text-decoration: none;
+	font-size: x-large;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+a:hover{
+	color:#b4a078 ;
+}
+.DianQi-file{
+	border: 1px solid white;
+	width:710px ;
+	height: 50px;
+	margin-top: -38px;
+	margin-left: 480px;
+}
+.DianQi-file a{
+		color: black;
+		text-decoration: none;
+		font-family: "微软雅黑";
+}
+#DianQi-center{
+	border: 0px solid white;
+	width: 1090px;
+	height: 310px;
+	margin-top: 20px;
+	background-image: url(../img/7598c623e51be892450d4784e1837dea.jpg);
+}
+.DianQi-more{
+	border: 0px solid red;
+	width:85px ;
+	height: 30px;
+	margin-top: -50px;
+	margin-left: 1010px;
+}
+.DianQi-more a{
+	color: black;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+a:hover{
+	color:#b4a078 ;
+}
+.DianQi-bottom-top{
+	border: 0px solid red;
+	width:1910px ;
+	height: 293px;
+}
+.DianQi-img1{
+	border: 0px solid #f4f4f4;
+	width: 265px;
+	height: 265px;
+	float: left;
+	margin-top: 25px;
+	background-color: #f4f4f4;
+}
+
+.DianQi-img2{
+	border: 0px solid #f4f4f4;
+	width: 265px;
+	height: 265px;
+	margin-left: 10px;
+	margin-top: 25px;
+	float: left;
+	overflow: hidden;
+	background-color: #f4f4f4;
+}
+.DianQi-img3{
+	border: 0px solid #f4f4f4;
+	width: 265px;
+	height: 265px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 25px;
+	background-color: #f4f4f4;
+}
+
+.DianQi-img4{
+	border: 0px solid  #f4f4f4;
+	width: 265px;
+	height: 265px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 25px;
+	background-color: #f4f4f4;	
+}
+#DianQi img:hover{
+	transform: scale(1.1,1.1);
+}
+img{
+	transition: all 1s;
+}
+.DianQi-bottom-down{
+	border: 0px solid blue;
+	width: 1190px;
+	height: 122px;
+
+}
+.DianQi-sale1{
+	border: 0px solid orange;
+	width: 265px;
+	height: 119px;
+		float: left;
+}
+.c-name1{
+	border: 0px solid orange;
+	width: 225px;
+	height: 25px;
+	margin-left: 29px;
+	margin-top: 38px;
+}
+.c-name1 a{
+	color: black;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+a:hover{
+	color:#b4a078 ;
+}
+.c-price1{
+	border: 0px solid orange;
+	width: 35px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 2px;
+	color:#d4282d ;
+}
+
+.DianQi-sale2{
+	border: 0px solid orange;
+	width: 265px;
+	height: 119px;
+	float: left;
+	margin-left: 11px;
+}
+
+.c-name2{
+	border: 0px solid orange;
+	width: 240px;
+	height: 25px;
+	margin-left: 50px;
+	margin-top: -8px;
+	
+}
+.c-name2 a{
+	color: black;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+a:hover{
+	color:#b4a078 ;
+}
+.c-price2{
+	border: 0px solid orange;
+	width: 35px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 2px;
+	color:#d4282d ;
+}
+
+
+.DianQi-sale3{
+	border: 0px solid orange;
+	width: 265px;
+	height: 119px;
+	float: left;
+	margin-left: 11px;
+}
+.TeJia2{
+	border: 0px solid #e36844;
+	width: 70px;
+	height: 20px;
+	margin-left: 100px;
+	margin-top: 7px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	background-color: #e36844;
+	color: white;
+	font-family: "微软雅黑";
+}
+.c-name3{
+	border: 0px solid orange;
+	width: 215px;
+	height: 25px;
+	margin-left: 70px;
+	margin-top: 38px;
+}
+.c-name3 a{
+	color: black;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+a:hover{
+	color:#b4a078 ;
+}
+.c-price3{
+	border: 0px solid orange;
+	width: 35px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: 2px;
+	color:#d4282d ;
+}
+
+.DianQi-sale4{
+	border: 0px solid orange;
+	width: 265px;
+	height: 119px;
+	float: left;
+	margin-left: 11px;
+}
+.TeJia4{
+	border: 0px solid #e36844;
+	width: 84px;
+	height: 20px;
+	margin-left: 90px;
+	margin-top: 7px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	background-color: #e36844;
+	color: white;
+	font-family: "微软雅黑";
+}
+.c-name4{
+	border: 0px solid orange;
+	width: 245px;
+	height: 25px;
+	margin-left: 110px;
+	margin-top: -10px;
+}
+.c-name4 a{
+	color: black;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+a:hover{
+	color:#b4a078 ;
+}
+.c-price4{
+	border: 0px solid orange;
+	width: 35px;
+	height: 25px;
+	margin-left: 120px;
+	margin-top: 2px;
+	color:#d4282d ;
+}

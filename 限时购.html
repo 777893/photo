@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	
+	<link rel="stylesheet"href="css/限时购.css"type="text/css" />
+  	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+	<script>
+		$(function(){
+			$('#fz-a').hover(function(){
+				$(this).css('color','#b5a17a');
+			},function(){
+				$(this).css('color','black');
+			})
+			$('#fz-b').hover(function(){
+				$(this).css('color','#b5a17a');
+			},function(){
+				$(this).css('color','black');
+			})
+			//改变立即购买背景颜色
+			$('#fz-cc8').hover(function(){
+				$('#fz-cc8').css('background-color','#FF3333');
+			},function(){
+				$(this).css('background-color','#be4141')
+			})
+			$('#fz-cc15').hover(function(){
+				$('#fz-cc15').css('background-color','#FF3333');
+			},function(){
+				$(this).css('background-color','#be4141')
+			})
+			$('#fz-cc22').hover(function(){
+				$('#fz-cc22').css('background-color','#FF3333');
+			},function(){
+				$(this).css('background-color','#be4141')
+			})
+			$('#fz-cc29').hover(function(){
+				$('#fz-cc29').css('background-color','#FF3333');
+			},function(){
+				$(this).css('background-color','#be4141')
+			})
+			//改变小标题颜色
+			$('#fz-cc2').hover(function(){
+				$(this).css('color','#b5a17a');
+			},function(){
+				$(this).css('color','black')
+			})
+			$('#fz-cc9').hover(function(){
+				$(this).css('color','#b5a17a');
+			},function(){
+				$(this).css('color','black')
+			})
+			$('#fz-cc16').hover(function(){
+				$(this).css('color','#b5a17a');
+			},function(){
+				$(this).css('color','black')
+			})
+			$('#fz-cc23').hover(function(){
+				$(this).css('color','#b5a17a');
+			},function(){
+				$(this).css('color','black')
+			})
+			
+			
+		})
+		
+		var hh = 2;
+     	var mm = 30;
+     	var ss = 60;
+        function fun(){
+     	ss--;
+     	if(ss==0){
+     		mm--;
+     		ss = 60;
+     	}else if(mm==0){
+     		hh--;
+     	    mm = 59;
+     	}
+     	sss = ss + "";
+     	$("#hour").text(hh);
+     	$("#min").text(mm);
+     	$("#son").text(sss);
+     	
+
+        }
+        setInterval(fun,1000);
+		
+	</script>
+	<body>
+		<div id="da">
+			<div id="fz-tou">
+				<ul>
+					<center>
+						<a href="" id="fz-a"><b>限时购</b></a>
+						<a href="" id="fz-b">更多抢购&nbsp;&nbsp;&nbsp;></a>
+					</center>
+				</ul>
+			</div>
+		
+			<div id="fz-c">
+				<div id="fz-c1">
+						<img src="img/11.jpg"/>
+						<li id="fz-cc30">18点场</li>
+						<li id="fz-cc31">——</li>
+						<li id="fz-cc32">距离结束还剩</li>
+				</div>
+				<div id="hour"></div>
+				<div id="time1"><b>:</b></div>
+				<div id="min"></div>
+				<div id="time2"><b>:</b></div>
+				<div id="son"></div>
+				
+				<div id="fz-c2">
+					<div id="fz-w">
+						<img src="img/18.png" title="补肾干海参"/>
+					</div>
+					<div id="fz-w1">
+						<div id="fz-w2"><a href="" id="fz-cc2">干海参 80克 (22-25头)</a></div>
+						<div id="fz-w3"><li id="fz-cc3">大连原产，海味珍品</li></div>
+						<div id="fz-w4"><img src="img/21.png" /></div>
+						<div id="fz-w5"><li id="fz-cc4">还剩268件</li></div>
+						<div id="fz-w6"><li id="fz-cc5">限时价</li></div>
+						<div id="fz-w7"><li id="fz-cc6">￥688</li></div>
+						<div id="fz-w8"><li id="fz-cc7">原价 ￥888</li></div>
+						<div id="fz-w9"><li id="fz-cc8"><a href="">立即抢购</a></li></div>
+					</div>
+				</div>
+				
+				<div id="fz-c3">
+					<div id="fz-w10">
+						<img src="img/22.png"title="超大旅行箱"/>
+					</div>
+					<div id="fz-w11">
+						<div id="fz-w12"><a href="" id="fz-cc9">28寸 纯PC拉链斜纹拉杆箱</a></div>
+						<div id="fz-w13"><li id="fz-cc3">112升充足容量，全家一箱搞定</li></div>
+						<div id="fz-w14"><img src="img/21.png" /></div>
+						<div id="fz-w15"><li id="fz-cc11">还剩355件</li></div>
+						<div id="fz-w16"><li id="fz-cc12">限时价</li></div>
+						<div id="fz-w17"><li id="fz-cc13">￥288</li></div>
+						<div id="fz-w18"><li id="fz-cc14">原价 ￥319</li></div>
+						<div id="fz-w19"><li id="fz-cc15"><a href="">立即抢购</a></li></div>
+					</div>
+				</div>
+				
+				<div id="fz-c4">
+					<div id="fz-w20">
+						<img src="img/23.png"title="两用保温壶"/>
+					</div>
+					<div id="fz-w21">
+						<div id="fz-w22"><a href="" id="fz-cc16">玻璃内胆保温壶</a></div>
+						<div id="fz-w23"><li id="fz-cc17">1.0L容量，家庭办公两用</li></div>
+						<div id="fz-w24"><img src="img/21.png" /></div>
+						<div id="fz-w25"><li id="fz-cc18">还剩318件</li></div>
+						<div id="fz-w26"><li id="fz-cc19">限时价</li></div>
+						<div id="fz-w27"><li id="fz-cc20">￥95.2</li></div>
+						<div id="fz-w28"><li id="fz-cc21">原价 ￥319</li></div>
+						<div id="fz-w29"><li id="fz-cc22"><a href="">立即抢购</a></li></div>
+					</div>
+						
+				</div>
+				
+				
+				<div id="fz-c5">
+					<div id="fz-w30">
+						<img src="img/24.png"title="猄皮女鞋"/>
+					</div>
+					<div id="fz-w31">
+						<div id="fz-w32"><a href="" id="fz-cc23">羊猄皮复古粗跟女鞋</a></div>
+						<div id="fz-w33"><li id="fz-cc24">时尚小方头，体验不一样的风情</li></div>
+						<div id="fz-w34"><img src="img/21.png" /></div>
+						<div id="fz-w35"><li id="fz-cc25">还剩641件</li></div>
+						<div id="fz-w36"><li id="fz-cc26">限时价</li></div>
+						<div id="fz-w37"><li id="fz-cc27">￥161</li></div>
+						<div id="fz-w38"><li id="fz-cc28">原价 ￥229</li></div>
+						<div id="fz-w39"><li id="fz-cc29"><a href="">立即抢购</a></li></div>
+					</div>
+						
+				</div>
+			
+	</div>
+	</body>
+</html>

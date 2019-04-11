@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		div{
+			border: solid 1px white;
+		}
+		header{
+			background-color: #333333;
+		}
+		li{
+			float: left;
+			list-style: none;
+			margin-left: 40px;
+		
+		}
+		#h2{
+			position: absolute;
+			width: auto;
+			height: auto;
+			left: 850px;
+			top: -7px;
+			}
+			#w1{
+			width: 300px;
+			height: 135px;
+			margin-left: 600px
+		}
+		input{
+			border: none;
+			border-bottom: solid 1px gray;
+		}
+		#w2{
+			width: 150px;
+			margin-left: 1000px;
+			margin-top: -25px;
+		}
+		#w3{
+			width: 20px;
+			height: 30px;
+			margin-left: 1150px;
+			margin-top: -25px;
+		}
+		#w4{
+			margin-left: 400px;
+			margin-right: 400px;
+		}
+
+		#z1{
+			width: 65px;
+			height: 65px;
+			float: left;
+			margin-left: 50px;
+			border: solid 1px white;
+		}
+		#v1{
+			width: 1090px;
+			height: 449px;
+			border: 0px solid white;
+			background-image:url(img/生活美学展2.jpg);
+			position: absolute;
+			top: 220px;
+			left: 410px;
+		}
+		#v1-1{
+			width: 200px;
+			height: 20px;
+			border: solid 0px white;
+			position: absolute;
+			left: 450px;
+			top: 400px;
+		}
+		#v1-1-1,#v1-1-2,#v1-1-3,#v1-1-4,#v1-1-5{
+			width: 13px;
+			height: 13px;
+			border-radius:50% ;
+			float: left;
+			margin-left: 15px;
+			background-color:  #F4F0EA;
+		}
+		#v2{
+			width: 1090px;
+			height: 449px;
+			border: 1px solid white;
+			background-image:url(img/春季新品发布会.jpg);
+			position: absolute;
+			top: 220px;
+			left: -680px;
+			opacity: 0.3;
+		}
+		#v3{
+			width: 1090px;
+			height: 449px;
+			border: 1px solid white;
+			background-image:url(img/严选2018穿搭手册jpg.jpg);
+			position: absolute;
+			left: 1501px;
+			top: 220px;
+			opacity: 0.3;
+		}
+		#v4{
+			width: 1090px;
+			height: 450px;
+			position: absolute;
+			top: 670px;
+			left: 410px;
+			border: solid 1px white;
+		}
+		#v4-1{
+			width:535px ;
+			height:315px ;
+			background-image: url(img/严选制造升级大揭秘.jpg);
+		}
+		#v4-2{
+			width: 535px;
+			height: 315px;
+			background-image: url(img/网易严选大事记.jpg);
+			position: absolute;
+			left: 553px;
+			top: 45px;
+		}
+		#v4-5{
+			position: absolute;
+			left: 555px;
+			top: 360px;
+		}
+		#v4-6{
+			position: absolute;
+			left: 555px;
+			top: 390px;
+		}
+		#v5{
+			width: 1090px;
+			height: 330px;
+			border: solid 1px #F5F5F5;
+			position: absolute;
+			top: 1120px;
+			left: 410px;
+			background-color: #F5F5F5;
+		}
+		#v5-1{
+			border: 0px;
+		}
+		#v5-3{
+			position: absolute;
+			border: solid 1px #F5F5F5;
+			width: 260px;
+			left: 310px;
+			top: 50px;
+		}
+		#v5-4{
+			position: absolute;
+			border: solid 1px #F5F5F5;
+			width: 260px;
+			left: 570px;
+			top: 50px;
+		}
+		#v5-5{
+			position: absolute;
+			border: solid 1px #F5F5F5;
+			width: 260px;
+			left: 830px;
+			top: 50px;
+		}
+		#v5-3-1,#v5-4-1,#v5-5-1{
+			height: 252px;
+			width: 20px;
+		}
+		#v5-3-2{
+			text-align: center;
+		}
+		#v6{
+			width: 1090px;
+			height: 400px;
+			border: solid 1px white;
+			position: absolute;
+			top: 1500px;
+			left: 410px;
+		}
+		#v6-2{
+			width: 361px;
+			height: 177px;
+			border: solid 1px white;
+			float: left;
+		}
+		#v6-3{
+			width: 180px;
+			height: 177px;
+			border: solid 1px white;
+		}
+		#v6-4{
+			width:170px;
+			position: absolute;
+			left: 182px;
+			top: 80px;
+			border: solid 1px white;
+		}
+		#v6-5{
+			width: 170px;
+			position: absolute;
+			left: 550px;
+			top: 80px;
+		}
+		#v6-6{
+			width: 170px;
+			position: absolute;
+			left: 920px;
+			top: 80px;
+		}
+		#v6-7{
+			width: 170px;
+			position: absolute;
+			left: 185px;
+			top: 260px;
+		}
+		#v6-8{
+			width: 170px;
+			position: absolute;
+			left: 550px;
+			top: 260px;
+		}
+		#v6-9{
+			width: 170px;
+			position: absolute;
+			left: 920px;
+			top: 260px;
+		}
+		#v7{
+			width: 1090px;
+			position: absolute;
+			left:410px ;
+			top: 1950px;
+		}
+		#v7-1{
+			width: 530px;
+			height: 260px;
+			background-image: url(img/全棉湿巾.jpg);
+			float: left;
+		}
+		#v7-2{
+			width: 530px;
+			height: 260px;
+			background-image: url(img/珐琅系列.jpg);
+			float: left;
+			margin-left: 20px;
+		}
+		#v7-3{
+			position: absolute;
+			left: 100px;
+			top: 100px;
+		}
+		#v7-4{
+			position: absolute;
+			left: 50px;
+			top: 140px;
+		}
+		#v7-5{
+			position: absolute;
+			left: 600px;
+			top: 100px;
+		}
+		#v7-6{
+			position: absolute;
+			left: 600px;
+			top: 140px;
+		}
+		#v8{
+			width: 1090px;
+			height: 800px;
+			position: absolute;
+			top: 2300px;
+			left: 410px;
+			border: solid 1px white;
+		}
+		#v8-1{
+			height: 50px;
+			width: 270px;
+			text-align: center;
+			background-color: #F5F5F5;
+			float: left;
+		}
+		#v8-2{
+			height: 50px;
+			width: 270px;
+			text-align: center;
+			background-color: #F5F5F5;
+			float: left;
+		}
+		#v8-3{
+			height: 50px;
+			width: 270px;
+			text-align: center;
+			background-color: #F5F5F5;
+			float: left;
+		}
+		#v8-4{
+			height: 50px;
+			width: 270px;
+			text-align: center;
+			background-color: #F5F5F5;
+			float: left;
+		}
+		#v8-5{
+			width: 26px;
+			height: 26px;
+			background-image: url(img/引号.PNG);
+			border: solid 1px white;
+			position: absolute;
+			top: 100px;
+			left: 50px;
+		}
+		#v8-6{
+			width: 800px;
+			height: 50px;
+			position: absolute;
+			left: 90px;
+			top: 120px;
+		}
+		#v8-7{
+			width: 1030px;
+			height: 500px;
+			border: solid 1px white;
+			position: absolute;
+			top: 250px;
+			left: 30px;
+			background-image: url(/网易严选/img/泊寓.PNG);
+		}
+		#h9{
+			margin-top: 2950px;
+			margin-left: 410px;
+			
+		}
+		#h9-1{
+			width: 358px;
+			height: 300px;
+			border: solid 1px #414141;
+			float: left;
+		}
+        #h9-2,#h9-3{
+			width: 357px;
+			height: 300px;
+			margin-left: 10px;
+			border: solid 1px #414141;
+			float: left;
+		}
+		#h9-2-1{
+			text-align: center;
+		
+		}
+		#h9-2-2{
+			margin-top: 90px;
+		}
+		#h9-3-2{
+			width: 130px;
+			height: 130px;
+			margin-left: 115px;
+			margin-top: 50px;
+		}
+		#h9-3-3{
+			text-align: center;
+		}
+		#h9-1-2{
+			width: 100px;
+			height: 125px;
+			background-image:url(img/反馈.PNG) ;
+			margin-top: 70px;
+			margin-left: 50px;
+			float: left;
+		}
+		#h9-1-3{
+			width: 100px;
+			height: 125px;
+			background-image:url(img/客服.PNG) ;
+			margin-top: 70px;
+			margin-left: 50px;
+			float: left;
+		}
+		#h10{
+			height: 300px;
+			width: 1900px;
+			margin-left: -7px;
+			margin-top: 300px;
+			background-color:#414141 ;
+		}
+		#h10-0{
+			width: 1900px;
+			height: 150px;
+			background-image:url(img/尾部.PNG) ;
+			border: solid 1px #414141;
+		}
+		#h10-1{
+			width: 1900px;
+			margin-left: 400px;
+			text-align: center;
+			border: solid 1px #414141;
+		}
+		#h10-2{
+			margin-top: 20px;
+			border: solid black 1px;
+			text-align: center;
+			border: solid 1px #414141;
+		}
+		img{
+	  	transition: all 1s;
+	  }
+	  img:hover{
+	  	transform: scale(1.1,1.1);
+	  }
+		a:link{
+			color: #000000;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #B5A17A;
+		}
+	</style>
+	<body>
+		<header>
+			<div id="h1"><font size="2" color="aliceblue">好的生活,没那么贵</font>
+			<div id="h2">
+				<ul>
+					<font size="2" color="aliceblue" id="x1">
+					<li><a href="#">登录</a></li>
+					<li><a href="#">注册</a></li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">会员</a></li>
+					<li><a href="#">甄选家</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">客户服务</a></li>
+					</font>
+				</ul>
+			</div>
+			</div>
+		</header>
+		<div id="w1" style="margin: 0px auto;">
+			<img src="img/zjhyanxuan - 副本.png"/>
+		</div>
+		<div id="w4">
+			<ul>
+				<li><font color="#000000"><a href="严选首页.html">首页</a></font></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">居家</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">配件</a></li>
+				<li onmouseover="q2.style.display='block'"
+				    onmouseout="q2.style.display='none'"><a href="#">服饰</a></li>
+				<li onmouseover="q2.style.display='block'"
+				    onmouseout="q2.style.display='none'"><a href="#">电器</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">洗护</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">饮食</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">餐厨</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">婴童</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">文体</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">特色区</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">为你严选</a></li>
+				<li onmouseover="q2.style.display='block'"
+					onmouseout="q2.style.display='none'"><a href="#">众筹</a></li>			
+			</ul>
+		</div>
+		
+		
+			<div id="v1">
+				<div id="v1-1">
+					<div id="v1-1-1" onmouseover="v1.style.backgroundImage='url(img/生活美学展2.jpg)'
+						v2.style.backgroundImage='url(img/生活美学展2.jpg)'
+						v3.style.backgroundImage='url(img/生活美学展2.jpg)'">
+						</div>
+					<div id="v1-1-2" onmouseover="v1.style.backgroundImage='url(img/春季新品发布会.jpg)'
+						v2.style.backgroundImage='url(img/春季新品发布会.jpg)'
+						v3.style.backgroundImage='url(img/春季新品发布会.jpg)'">
+						</div>
+					<div id="v1-1-3" onmouseover="v1.style.backgroundImage='url(img/严选2018穿搭手册jpg.jpg)'
+						v2.style.backgroundImage='url(img/严选2018穿搭手册jpg.jpg)'
+						v3.style.backgroundImage='url(img/严选2018穿搭手册jpg.jpg)'">
+						</div>
+					<div id="v1-1-4" onmouseover="v1.style.backgroundImage='url(/网易严选/img/活力民宿.jpg)'
+						v2.style.backgroundImage='url(/网易严选/img/活力民宿.jpg)'
+						v3.style.backgroundImage='url(/网易严选/img/活力民宿.jpg)'">
+						</div>
+					<div id="v1-1-5" onmouseover="v1.style.backgroundImage='url(/网易严选/img/十二星座.jpg)'
+						v2.style.backgroundImage='url(/网易严选/img/十二星座.jpg)'
+						v3.style.backgroundImage='url(/网易严选/img/十二星座.jpg)'">
+						</div>
+				</div>
+			</div>
+		    <div id="v2" onmouseover="this.style.opacity='1'"
+		    	onmouseout="this.style.opacity='0.3'">
+		    	
+		    </div>
+		    <div id="v3" onmouseover="this.style.opacity='1'"
+		    	onmouseout="this.style.opacity='0.3'">
+		    	
+		    </div>
+		    <div id="v4">
+		    	<div><font size="6">严选推荐</font></div>
+		    	<div id="v4-1">
+		    	</div>
+		    	<div id="v4-2">
+		    	</div>
+		    	<div id="v4-3">
+		    		<font size="5"><a href="#">严选制造工艺大揭秘</a></a></font>
+		    	</div>
+		    	<div id="v4-4">
+		    		<font size="4">极致材料,特殊工艺,揭秘严选黑科技</font>
+		    	</div>
+		    	<div id="v4-5">
+		    		<font size="5"><a href="#">网易严选类目大事记</a></font>
+		    	</div>
+		    	<div id="v4-6">
+		    		<font size="4">这是严选的成长足迹</font>
+		    	</div>
+		    </div>
+		    <div id="v5">
+		    	<div id="v5-1">
+		    		<font size="6" face="微软雅黑">丁磊的好货推荐</font>
+		    	</div>
+		    	<div id="v5-2">
+		    		<img src="img/丁磊.jpg"/>
+		    	</div>
+		    	<div id="v5-3">
+		    		<div id="v5-3-1">
+		    			<img src="img/吃得放心.png"/>
+		    		</div>
+		    		<div id="v5-3-2">
+		    			<font size="4"><a href="#">吃的放心+方便即时=美容养颜?</a></font>
+		    		</div>
+		    	</div>
+		    	<div id="v5-4">
+		    		<div id="v5-4-1">
+		    			<img src="img/卫生无死角.png"/>
+		    		</div>
+		    		<div id="v5-3-2">
+		    			<font size="4"><a href="#">没有卫生死角,睡觉都笑出声</a></font>
+		    		</div>
+		    	</div>
+		    	<div id="v5-5">
+		    		<div id="v5-5-1">
+		    			<img src="img/醋.png"/>
+		    		</div>
+		    		<div id="v5-3-2">
+		    			<font size="4"><a href="#">吃醋的学问</a></font>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div id="v6">
+		    	<div id="v6-1">
+		    		<font size="6" face="微软雅黑">口碑商品</font>
+		    	</div>
+		    	<div id="v6-2">
+		    		<div id="v6-3">
+		    			<img src="img/白果炖鸡汤.png"/>
+		    		</div>
+		    		<div id="v6-4">
+		    			<div>
+		    			<font size="4"><a href="#">白果炖鸡汤&nbsp;&nbsp;&nbsp;280g*3杯</a></font>
+		    		</div>
+		    		<div>
+		    			<font size="3">传统名汤&nbsp;真材实料</font>
+		    		</div>
+		    		</div>
+		    		
+		    	</div>
+		    	<div id="v6-2">
+		    		<div id="v6-3">
+		    			<img src="img/IH电饭煲png.png"/>
+		    		</div>
+		    		<div id="v6-5">
+		    			<div>
+		    			<font size="4"><a href="#">IH电饭煲</a></font>
+		    		</div>
+		    		<div>
+		    			<font size="3">电磁感应加热,米饭...</font>
+		    		</div>
+		    		</div>
+		    	</div>
+		    	<div id="v6-2">
+		    		<div id="v6-3">
+		    			<img src="img/干果机.png"/>
+		    		</div>
+		    		<div id="v6-6">
+		    			<div>
+		    			<font size="4"><a href="#">网易智造锁味干果机</a></font>
+		    		</div>
+		    		<div>
+		    			<font size="3">锁住食物新鲜感,每...</font>
+		    		</div>
+		    		</div>
+		    	</div>
+		    	<div id="v6-2">
+		    		<div id="v6-3">
+		    			<img src="img/净水壶.png"/>
+		    		</div>
+		    		<div id="v6-7">
+		    			<div>
+		    			<font size="4"><a href="#">德国制造,镁离子净水壶(含滤芯)</a></font>
+		    		</div>
+		    		<div>
+		    			<font size="3">欧洲百年水处理领先...</font>
+		    		</div>
+		    		</div>
+		    	</div>
+		    	<div id="v6-2">
+		    		<div id="v6-3">
+		    			<img src="img/除螨吸尘器.png"/>
+		    		</div>
+		    		<div id="v6-8">
+		    			<div>
+		    			<font size="4"><a href="#">网易制造N520除螨吸尘器</a></font>
+		    		</div>
+		    		<div>
+		    			<font size="3">除螨吸尘,深层清洁</font>
+		    		</div>
+		    		</div>
+		    	</div>
+		    	<div id="v6-2">
+		    		<div id="v6-3">
+		    			<img src="img/懒人沙发.png"/>
+		    		</div>
+		    	</div>
+		    	<div id="v6-9">
+		    			<div>
+		    			<font size="4"><a href="#">超柔弹力靠背懒人沙发</a></font>
+		    		</div>
+		    		<div>
+		    			<font size="3">软糯高弹,零压坐感...</font>
+		    		</div>
+		    		</div>
+		    </div>
+		    <div id="v7">
+		    	<div><font size="6">特色系列</font></div>
+		    		<div id="v7-1">
+		    			<div id="v7-3">
+		    				<font size="6"><a href="#">棉质生活</a></font>
+		    			</div>
+		    			<div id="v7-4">
+		    				<font size="4">无荧光的全面用品更安心</font>
+		    			</div>
+		    		</div>
+		    		<div id="v7-2">
+		    			<div id="v7-5">
+		    				<font size="6"><a href="#">珐琅系列</a></font>
+		    			</div>
+		    			<div id="v7-6">
+		    				<font size="4">每个大厨都有的万能锅</font>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div id="v8">
+		    	<div><font size="6">严选空间</font></div>
+		    	<div id="v8-1" onmouseover="this.style.backgroundColor ='white'
+		    		           text('v8-6','对于都市青年而言，房子虽然是租的，但生活却是自己的。我们选择了万科泊寓两间一居室公寓，用高性价比的严选商品，软装了两种不同风格的样板间，这些精选的布置，都是我们对生活一丝不苟的态度。希望这两间房子里能够装下，你对家的所有美好想象。','v8-7',' url(/网易严选/img/泊寓.PNG)')"
+		    		           onmouseout="this.style.backgroundColor='#f5f5f5'">
+		    		<font size="5">严选HOME@泊寓</font>
+		    	</div>
+		    	<div id="v8-2" onmouseover="this.style.backgroundColor ='white'
+		    		                       text('v8-6','于旅人而言，酒店是温暖的停靠点，让人们恢复元气走进下一程。网易严选将生活美学带到亚朵酒店，用严选商品搭建了几个家一般温馨舒适的房间。让旅人即便出门在外，可以感受到家的温暖。','v8-7','url(/网易严选/img/亚朵.PNG)')"
+		    		                         onmouseout="this.style.backgroundColor='#f5f5f5'">
+		    		<font size="5">严选HOME@亚朵..</font>
+		    	</div>
+		    	<div id="v8-3"  onmouseover="this.style.backgroundColor ='white'
+		    		                        text('v8-6','严选希望可以把家的温暖传递给每一位伙伴，由此我们酝酿了一个充满严选元素，有浓郁严选格调的实体样板间——严选home。本专题推荐的是严选HOME在万科智谷搭建的一个LOFT公寓，用严选好物装点出的实景空间。','v8-7','url(/网易严选/img/智谷.PNG)')"
+		    		                          onmouseout="this.style.backgroundColor='#f5f5f5'">
+		    		<font size="5">严选HOME@智谷</font>
+		    	</div>
+		    	<div id="v8-4"  onmouseover="this.style.backgroundColor ='white'
+		    		                         text('v8-6','我们在群岛公寓搭建了几个实景空间，希望将网易严选生活美学概念，以最贴近日常生活的方式在线下呈现。如果你正在为家里的软装搭配而烦恼，不如看看我们为你提供的解决方案吧。','v8-7','url(/网易严选/img/群岛.PNG)')"
+		    		                          onmouseout="this.style.backgroundColor='#f5f5f5'">
+		    		<font size="5">严选HOME@群岛..</font>
+		    	</div>
+		    	<div id="v8-5">
+		    		<font size="5"></font>
+		    	</div>
+		    	<div id="v8-6">
+		    		<font face="黑体">对于都市青年而言，房子虽然是租的，但生活却是自己的。我们选择了万科泊寓两间一居室公寓，用高性价比的严选商品，软装了两种不同风格的样板间，这些精选的布置，都是我们对生活一丝不苟的态度。希望这两间房子里能够装下，你对家的所有美好想象。</font>
+		    	</div>
+		    	<div id="v8-7">
+		    		
+		    	</div>
+		    </div>
+		    <div id="h9">
+			<div id="h9-1">
+				<div id="h9-2-1">
+					<font size="5">客户服务</font>
+				</div>
+				<div id="h9-1-2" onmouseover="this.style.backgroundImage='url(/网易严选/img/反馈2.PNG)'
+					                          this.style.boxShadow='10px 10px 5px black'"
+					             onmouseout="this.style.backgroundImage='url(/网易严选/img/反馈.PNG)'
+					                          this.style.boxShadow='0px 0px 0px black'">
+					
+				</div>
+				<div id="h9-1-3" onmouseover="this.style.backgroundImage='url(/网易严选/img/客服2.PNG)'
+				                                this.style.boxShadow='10px 10px 5px black'"
+					             onmouseout="this.style.backgroundImage='url(/网易严选/img/客服.PNG)'
+					                         this.style.boxShadow='0px 0px 0px black'">
+					
+				</div>
+			</div>
+			<div id="h9-2">
+				<div id="h9-2-1">
+					<font size="5">何为严选</font>
+				</div>
+				<div id="h9-2-2">
+					<font size="4" face="黑体">网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</font>
+				</div>
+			</div>
+			<div id="h9-3">
+				<div id="h9-2-1">
+					<font size="5">扫码下载严选APP</font>
+				</div>
+				<div id="h9-3-2" onmouseover="this.style.boxShadow='10px 10px 5px black'"
+					              onmouseout="this.style.boxShadow='0px 0px 0px '">
+					<img src="img/二维码.png"/>
+				</div>
+				<div id="h9-3-3">
+					<a href="#">下载领100元红包</a>
+				</div>
+			</div>
+		</div>
+		<div id="h10">
+			<div id="h10-0">
+				
+			</div>
+			<div id="h10-1">
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">售后服务</a></li>
+					<li><a href="#">配送与验收</a></li>
+					<li><a href="#">商务合作</a></li>
+					<li><a href="#">企业采购</a></li>
+					<li><a href="#">开放平台</a></li>
+					<li><a href="#">搜索推荐</a></li>
+					<li><a href="#">友情链接</a></li>
+				</ul>
+			</div>
+			<div id="h10-2"> 
+			    网易公司版权所有 © 1997-2018   食品经营许可证：JY13301080111719 出版物经营许可证：新出发滨字第0132号
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onload=function(){
+		var a = document.getElementById("v1");
+		var b = document.getElementById("v2");
+		var c = document.getElementById("v3");
+		var img = ["img/生活美学展2.jpg","img/春季新品发布会.jpg","img/严选2018穿搭手册jpg.jpg","/网易严选/img/活力民宿.jpg","/网易严选/img/十二星座.jpg"];
+		a.style.backgroundImage="url(img/两周年.jpg)";
+		var i = 0;
+		function time(){   
+               i++;   
+               i=i/1;
+               if(i==5){
+               	i = 0;
+               }
+               a.style.background="url("+img[i]+")";
+               b.style.background="url("+img[i]+")";  
+               c.style.background="url("+img[i]+")";  
+        }
+        setInterval(time,2000);
+    }
+		function text(ii1,ii2,ii3,ii4){
+     	var d = document.getElementById(ii1);
+     	d.innerHTML=ii2;
+     	d.style.fontFamily="黑体";
+     	var e = document.getElementById(ii3);
+     	e.style.backgroundImage=ii4;
+     }
+	
+	</script>
+</html>

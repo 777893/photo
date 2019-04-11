@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<form action="" method="post">
+		<input type="checkbox" onclick="fun()"/><br />
+		<input type="checkbox" name="like" value="篮球">篮球<br />
+		<input type="checkbox" name="like" value="足球">足球<br />
+		<input type="checkbox" name="like" value="排球">排球<br />
+		<input type="checkbox" name="like" value="棒球">棒球<br />
+		<input type="checkbox" name="like" value="台球">台球<br />
+        <input type="button" value="全选" onclick="fun1()" />
+        <input type="button" value="全不选" onclick="fun2()">
+        <input type="button" value="反选" onclick="fun()"/>
+        <input type="button" value="提交" onclick="tijiao()" />
+		</form>
+		
+	</body>
+</html>
+<script language="JavaScript">
+	      function fun1(){
+	      		var a=document.getElementsByName("like");
+	      	for (var i = 0; i < a.length; i++) {
+	      		a[i].checked=true;
+	      	}
+	      	
+	      }
+	         function fun2(){
+	      		var a=document.getElementsByName("like");
+	      	for (var i = 0; i < a.length; i++) {
+	      		a[i].checked=false;
+	      	}
+	      	
+	      }
+	      
+	      function fun(){
+	      	var a=document.getElementsByName("like");
+	      	for (var i = 0; i < a.length; i++) {
+	      		if(a[i].checked){
+	      			a[i].checked=false;
+	      		}else{
+	      			a[i].checked=true;
+	      		}
+	      	}
+	      }
+	      function tijiao(){
+	      	var a=document.getElementsByName("like");
+	      	var str="";
+	      	for (var i = 0; i < a.length; i++) {
+	      		if (a[i].checked)
+	      		str+=a[i].value+" ,";
+	      	}
+	      	alert(str.substring(0,str.length-1));
+	      }
+</script>

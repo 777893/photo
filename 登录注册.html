@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+	<script type="text/javascript" src="js/zjhTop.js" ></script>
+	<script type="text/javascript" src="js/jigsaw.js" ></script>
+	<!--<script src="js/jigsaw.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/yanzhengma.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/zjhwangyidibu.js" ></script>
+	<script src="js/tab.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/zjhTop.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jigsaw.css"/>
+	<link rel="stylesheet" type="text/css" href="css/zjhwangyidibu.css"/>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		#login{
+			width: 100%;
+			height: 600px;
+			background-image: url(img/download.jpg);
+		}
+		#login #always{
+			width: 384px;
+			height: 456px;
+			background-color: white;
+			position: absolute;
+			top: 70px;
+			right: 260px;
+		}
+		#login li{
+			list-style: none;
+			float: left;
+		}
+		#login #Tab{
+			width: 324px;
+			height: 80px;
+			float: left;
+			margin-left: 30px;
+		}
+		#login #Tab li{
+			height: 50px;
+			width: 162px;
+			line-height: 50px;
+			font-size: 20px;
+			margin-top: 15px;
+			cursor: pointer;
+		}
+		#login #Tab #ll{
+			height: 50px;
+			width: 2px;
+			line-height: 50px;
+			font-size: 20px;
+		}
+		#login #always #denglu{
+			height: 376px;
+			width: 324px;
+			float: left;
+			margin-left: 30px;
+			
+		}
+		#login #always #zhuce{
+			height: 376px;
+			width: 324px;
+			background-color: white;
+			float: left;
+			margin-left: 30px;
+			display: none;
+		}
+		#login #always #denglu #bott{
+			width: 324px;
+			height: 50px;
+			position: absolute;
+			border-top: solid 1px #F5F3EF;
+			bottom: 0px;
+		}
+		#bott ul{
+			margin-top: 10px;
+			margin-left: 85px;
+		}
+		#login #always #denglu #bott li{
+			height: 30px;
+			width: 30px;
+			margin-left: 5px;
+		}
+		#login #always #denglu #bott #bott_1{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px 1px;
+			cursor: pointer;
+		}
+		#login #always #denglu #bott #bott_1:hover{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px -38px;
+		}
+		#login #always #denglu #bott #bott_2{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px 84px;
+			cursor: pointer;
+		}
+		#login #always #denglu #bott #bott_2:hover{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px 40px;
+		}
+		#login #always #denglu #bott #bott_3{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px -78px;
+			cursor: pointer;
+		}
+		#login #always #denglu #bott #bott_3:hover{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px 168px;
+		}
+		#login #always #denglu #bott #bott_4{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px -119px;
+			cursor: pointer;
+		}
+		#login #always #denglu #bott #bott_4:hover{
+			background-image: url(img/77f98b239f0d848eb54151c4ad6eab96.png);
+			background-position: -5px 127px;
+		}
+		#login #always #back{
+			width: 384px;
+			height: 50px;
+			background-color: #F5F3EF;
+			position: absolute;
+			z-index: -1;
+			bottom: 0px;
+		}
+		#login #always .dengzhu #tell{
+			height: 40px;
+			width: 320px;
+			border: 1px solid #e8e8e8;
+		}
+		#login #always .dengzhu #tell #tell_1{
+			height: 40px;
+			width: 40px;
+			background-image: url(img/tel.jpg);
+			background-position: 7px 4px;
+			float: left;
+		}
+		#login #always .dengzhu .loc{
+			height: 40px;
+			width: 320px;
+			border: 1px solid #e8e8e8;
+			margin-top: 20px;
+		}
+		#login #always .dengzhu .loc .loc_1{
+			height: 40px;
+			width: 40px;
+			background-image: url(img/loc.jpg);
+			background-position: 8px 2px;
+			float: left;
+		}
+		#zhuce #btn{
+			font-size: 30px;
+			margin-top: 30px;
+			color: white;
+			border: 0px;
+			border-radius: 3% 3%;
+			width: 320px;
+			height: 50px;
+			background-color: #b4a078;
+			outline: none;
+			cursor: pointer;
+		}
+		#zhuce li{
+			color: darkgray;
+			font-size: 10px;
+		}
+		#zhuce li a{
+			text-decoration: none;
+			color: darkgray;
+		}
+		#zhuce li a:hover{
+			color: black;
+		}
+	</style>
+	<body>
+		<div id="all">
+			<div id="zjhalltop">
+				<div id="zjhalltop1"><a href="#"><font size="2" color="white">好的生活，没那么贵</font></a></div>
+				<div id="zjhalltop2"><a href="#"><img src="img/zjhlaba.gif"></a></div>
+				<div id="zjhalltop3">
+					<ul> 
+						<li><a href="#" style="text-decoration: underline; color: #DEB887;">聊聊您的生活日常</a></li>                                    
+						<li><a href="#" style="text-decoration: underline; color: #DEB887;" >【严选联名卡】达标领80元</a></li> 
+					</ul> 
+				</div>
+				<div id="zjhalltop4">
+					<ul id="zjhalltopul">
+						<li><a href="#">登陆</a></li>
+						<li><a href="#">注册&nbsp;&nbsp;|</a></li>
+						<li><a href="#">我的订单&nbsp;&nbsp;|</a></li>
+						<li><a href="">会员&nbsp;&nbsp;|</a></li>
+						<li><a href="#">甄选家&nbsp;&nbsp;|</a></li>
+						<li><a href="#">企业采购&nbsp;&nbsp;|</a></li>
+						<li id="zjhqi"><a href="#">客户服务&nbsp;&nbsp;^&nbsp;|</a>
+							<ul id="yincang">
+								<li><a href="#">在线客服</a></li>
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">商务合作</a></li>
+								<li><a href="#">开放平台</a></li>
+							</ul>
+						</li>
+						<li style="margin-left: 20px;"><a href="#">APP
+							<div id="zjherweima">
+								<img src="img/zjherweima.jpg" style="width: 130px; height: 130px;">
+								<div id="zjherweimazi">扫描领取大礼包</div>
+							</div>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<div id="zjhtopa1"></div>
+			<div id="zjhtopa2">
+				<div id="zjhtopa2a">
+					<input type="text" placeholder="海外制造 买一送一" id="zjhinput"/>
+					<ul id="zjhinputxiala">
+						<li><a href="#">断码服饰 9块9元</a></li>
+						<li><a href="#">婴童夏装两件5折</a></li>
+						<li><a href="#">行李箱2件8折</a></li>
+						<li><a href="#">美容洗护满99立减29</a></li>
+						<li><a href="#">买不了吃亏 买不了上当</a></li>
+					</ul>
+				</div>
+				<a href="#"><div id="zjhtopa2b"><img src="img/zjhshousuo.png"></div></a>
+				<a href="#"><div id="zjhtopa2c"></div></a>
+			</div>
+			
+			
+			<div id="zjhzhutilan">
+				<ul id="zjhzhutilanul">
+					<li><a href="严选首页.html">首页</a></li>
+					<li><a href="#">居家</a></li>
+					<li><a href="#">鞋包配饰</a></li>
+					<li><a href="#">服装</a></li>
+					<li><a href="#">电器</a></li>
+					<li><a href="#">洗护</a></li>
+					<li><a href="#">饮食</a></li>
+					<li><a href="#">餐饮</a></li>
+					<li><a href="#">厨窗</a></li>
+					<li><a href="#">婴童</a></li>
+					<li><a href="#">文体</a></li>
+					<li><a href="#">特色区&nbsp;&nbsp;&nbsp;&nbsp; |</a></li>
+					<li><a href="为你严选.html">为你严选</a></li>
+					<li><a href="#">众筹</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div id="login" >
+			<div id="always" style="margin-top: 300px;">
+				<div id="Tab">
+					<ul>
+						<li>手机号登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+						<li>注册</li>
+					</ul>
+				</div>
+				<div id="denglu" class="dengzhu">
+					<div id="tell">
+						<div id="tell_1"></div><font color="#E8E8E8" size="6px" style="float: left;">|</font>
+						<input type="text" id="tel" placeholder="请输入手机号" style="font-size: 18px; height: 40px; width: 263px;border: none; outline: none;" />
+					</div>
+					<div class="loc">
+						<div class="loc_1"></div><font color="#E8E8E8" size="6px" style="float: left;">|</font>
+						<input type="password" id="pwd" placeholder="请输入密码" style="font-size: 18px; height: 40px; width: 263px;border: none; outline: none;" />
+					</div>
+					<div id="captcha" style="position: relative"></div>
+  					<div id="m"></div>
+					<div id="bott">
+						<ul>
+							<li id="bott_1"></li>
+							<li id="bott_2""></li>
+						    <li id="bott_3"></li>
+							<li id="bott_4"></li>
+						</ul>
+					</div>
+				</div>
+			 <div id="zhuce"  class="dengzhu">
+					<div id="tell">
+						<div id="tell_1"></div><font color="#E8E8E8" size="6px" style="float: left;">|</font>
+						<input type="text" id="zctel" placeholder="请输入手机号" style="font-size: 18px; height: 40px; width: 263px;border: none; outline: none;" />
+					</div>
+					<div class="loc">
+						<div class="loc_1"></div><font color="#E8E8E8" size="6px" style="float: left;">|</font>
+						<input type="password" id="zcpwd" placeholder="请输入密码" style="font-size: 18px; height: 40px; width: 263px;border: none; outline: none;" />
+					</div>
+					<div class="loc l_1">
+						<div class="loc_1 lo_1"></div><font color="#E8E8E8" size="6px" style="float: left;">|</font>
+						<input type="password" id="zcpwod" placeholder="请再次输入密码" style="font-size: 18px; height: 40px; width: 263px;border: none; outline: none;" />
+					</div>
+					<input type="button" id="btn" value="注册" />
+					<li>我同意<a href="#">《服务条款》</a> 和 <a href="#">《网易隐私政策》</a></li>
+					
+				</div>
+				
+				<div id="back"></div>
+			</div>
+		</div>
+		
+		<!--<div id="zjhwangyidibu">
+			<div id="zjhdibutop">
+				<div id="zjhdibuzhong">
+					<div class="zjhdibutop1">
+						<div class="zjhdibutop2">客户服务</div>
+						<div id="zjhdibutopa"><img src="img/客服.PNG" width="70px" height="90px" id="zjhkefu1" ><img src="img/客服2.PNG" width="70px" height="90px" id="zjhkefu2" style="display: none;"></div>
+						<div id="zjhdibutopb"><img src="img/反馈.PNG" width="70px" height="90px" id="zjhfankui1" ><img src="img/反馈2.PNG" width="70px" height="90px" id="zjhfankui2" style="display: none;"></div>
+					</div>
+					
+					<div class="zjhdibutop1">
+						<div class="zjhdibutop2">何为严选</div>
+						<div id="zjhdibub1">网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</div>
+						<div id="zjhdibub2">
+							<div id="zjhdibub3">关注我们:</div>
+							<div class="zjhdibu4"><img src="img/zjhdibu2.png" style="width: 50px; height: 50px;" id="zjhqq"></div>
+							<div class="zjhdibu4"><img src="img/zjhdibu3.png" style="width: 50px; height: 50px;" id="zjhweixin"></div>
+							<div class="zjhdibu4"><img src="img/zjhdibu1.png" style="width: 50px; height: 50px;"></div>
+							<div id="zjhdibu5"><img src="img/zjhdibuyanxuan.png"></div>
+							<div id="zjhdibu6"><img src="img/zjhdibuyanxuan.png"></div>
+						</div>
+					</div>
+					
+					<div class="zjhdibutop1">
+						<div class="zjhdibutop2">扫码下载严选APP</div>
+						<div id="zjhdibuc1"><img src="img/zjhdibuxiazai.png"></div>
+						<div id="zjhdibuc2">下载领1000元新人礼包</div>
+					</div>
+				</div>
+			</div>
+			
+
+		<div id="zjhdibudatu"><img src="img/尾部.PNG" style="z-index: 1; width: 1920px; height: 130px;margin-left: 0px; "></div>
+			<div id="zjhdibudatu1">
+				<div class="zjhdibuxiaozi">关于我们</div>
+				<div class="zjhdibuxiaozi">帮助中心</div>
+				<div class="zjhdibuxiaozi">售后服务</div>
+				<div class="zjhdibuxiaozi">配送与验收</div>
+				<div class="zjhdibuxiaozi">商务合作</div>
+				<div class="zjhdibuxiaozi">企业采购</div>
+				<div class="zjhdibuxiaozi">开放平台</div>
+				<div class="zjhdibuxiaozi">搜索推荐</div>
+				<div class="zjhdibuxiaozi">友情链接</div>
+			</div>
+			<div id="zjhdibuzuihou">网易公司版权所有 © 1997-2018   食品经营许可证：JY13301080111719 出版物经营许可证：新出发滨字第0132号 单用途商业预付卡备案证：330100AAC0024</div>
+		</div>-->
+	</body>
+	<script type="text/javascript">
+		var lgtel = ['123456'];
+		var lgpwd = ['123456'];
+		$(function(){
+			$('#btn').click(function(){//注册按钮
+				var zctel = $('#zctel').val();
+				var zcpwd = $('#zcpwd').val();
+				var zcpwod = $('#zcpwod').val();
+				alert(zcpwd);
+				alert(zcpwod);
+				lgtel[lgtel.length] = zctel;
+				if(zcpwd == zcpwod){
+					lgpwd[lgpwd.length] = zcpwd;
+					alert("注册成功");
+					$('#denglu').show();
+					$('#Tab li:first').css("color","black");
+					$('#zhuce').hide();
+					$('#Tab li:last').css("color","#A9A9A9");
+					lgtel.push(zctel);
+					lgpwd.push(lgpwd);
+				}else{
+					alert("两次密码不一致，请重新输入");
+				}
+			})
+		})
+		
+		jigsaw.init(document.getElementById('captcha'), function () {
+    		    var tel = $('#tel').val();
+				var pwd = $('#pwd').val();
+				var flag = true;
+				for (var i = 0; i < lgtel.length; i++) {
+					if(lgtel[i] == tel){
+						if(lgpwd[i] == pwd){
+							
+							flag = false;
+							
+						}else{
+							
+						}
+						
+					}
+				}
+				if(flag==true){
+					alert("登陆失败！！！");
+				}else{
+					alert("登陆成功！！！");
+					window.location.href='严选首页.html';
+				}
+		})
+	</script>
+</html>

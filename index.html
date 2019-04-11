@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		#main{
+			width: 510px;
+			height: 100px;
+			border: solid red 1px;
+			overflow: hidden;
+		}
+		ul{
+			width: 2200px;
+			height: 100px;
+			border: solid red 1px;
+		}
+		li{
+			width: 510px;
+			height: 100px;
+			border: solid black 1px;
+			list-style: none;
+			float: left;
+		}
+		#left{
+			width: 20px;
+			height: 50px;
+			border: solid blue 1px;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+	<script>
+	     $(function(){
+	     	var clickLeftNum = 0 ;
+	     	var clickRightNum = 0 ;
+	     	$('#left').click(function(){
+	     		if(clickLeftNum<=2){
+	     			clickLeftNum++;
+	     		    clickRightNum--;
+	     			var left = -518*clickLeftNum+"px";
+	     		    $('ul').animate({'margin-left':left});
+	     		}
+	     	})
+	     	$('#right').click(function(){
+	     		if(clickRightNum == 0){
+	     		
+	     		}else{
+	     		clickRightNum++;
+	     		clickLeftNum--;
+	     		var right = 520*clickRightNum+"px";
+	     		$('ul').animate({'margin-left':right});
+	     		}
+	     		
+	     		
+	     	})
+	     })
+	</script>
+	<body>
+		<div id="main">
+		    <ul>
+		    	<li style="background-color: #0000FF;"></li>
+		    	<li style="background-color: #AAAAAA;"></li>
+		    	<li style="background-color: #FF0000;"></li>
+		    	<li style="background-color: #B5A17A;"></li>
+		    </ul>
+		    <!--<div id="left">
+		    	<
+		    </div>
+		    <div id="right">
+		    	>
+		    </div>-->
+		</div>
+		 <div id="left">
+		    	<
+		    </div>
+		 <div id="right">
+		    	>
+		    </div>
+	</body>
+</html>

@@ -1,0 +1,767 @@
+
+		#da{
+			border: 0px solid red;
+			height: 500px;
+			width: 1920px;
+		}
+		#fz-tou{
+			/*border: 1px solid blue;*/
+			width: 1920px;
+			height: 80px;
+			position: absolute;
+		}
+		#fz-a{
+			color: black;
+			font-size:30px;
+			font-family: "微软雅黑";
+			text-decoration:none;
+			}
+		#fz-b{
+			color: black;
+			margin-left: 915px;
+			text-decoration:none;
+			font-size: 15px;
+		}
+		#fz-c{
+			border: 1px solid #E8E8E8;
+			width: 1090px;
+			height: 377px;
+			margin-top: 90px;
+			margin-left: 415px;
+			position: absolute;
+			float: left;
+		}
+		#fz-c1{
+			
+			width: 224px;
+			height: 378px;
+			float: left;
+			position: absolute;
+		}
+		#fz-c2{
+			border: 1px solid #E8E8E8;
+			width: 431px;
+			height: 188px;
+			float: left;
+			position: absolute;
+			margin-left: 225px;
+		}
+		/*28寸 纯PC拉链斜纹拉杆箱*/
+		#fz-c3{
+			border: 1px solid #E8E8E8;
+			width: 431px;
+			height: 188px;
+			float: left;
+			position: absolute;
+			margin-left: 658px;
+		}
+		#fz-c4{
+			border: 1px solid #E8E8E8;
+			width: 431px;
+			height: 185px;
+			float: left;
+			position: absolute;
+			margin-top: 190px;
+			margin-left: 225px;
+		}
+		#fz-c5{
+			border: 1px solid #E8E8E8;
+			width: 431px;
+			height: 185px;
+			float: left;
+			position: absolute;
+			margin-top: 190px;
+			margin-left: 658px;
+		}
+		/*补肾干海参图片*/
+		#fz-w{ 
+			/*border: 1px solid red;*/
+			width: 180px;
+			height: 180px;
+			position: absolute;
+		}
+		#fz-w1{
+			/*border: 1px solid red;*/
+			width: 250px;
+			height: 180px;
+			margin-left:180px ;
+			position: absolute;
+		}
+		#fz-w2{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w3{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			float: left;
+			margin-top: 32px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w4{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 170px;
+			float: left;
+			margin-top: 65px;
+			margin-left: -10px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w5{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 175px;
+			margin-top: 58px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w6{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w7{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 60px;
+			margin-top: 78px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w8{
+			
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 150px;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w9{
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 130px;
+			position: absolute;
+			list-style: none;
+		}
+		
+		#fz-w10{ 
+			/*border: 1px solid red;*/
+			width: 180px;
+			height: 180px;
+			position: absolute;
+		}
+		#fz-w11{
+			/*border: 1px solid red;*/
+			width: 250px;
+			height: 180px;
+			margin-left:180px ;
+			position: absolute;
+		}
+		#fz-w12{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w13{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			float: left;
+			margin-top: 32px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w14{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 170px;
+			float: left;
+			margin-top: 65px;
+			margin-left: -10px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w15{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 175px;
+			margin-top: 58px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w16{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w17{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 60px;
+			margin-top: 78px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w18{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 150px;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w19{
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 130px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w20{ 
+			width: 180px;
+			height: 180px;
+			position: absolute;
+		}
+		#fz-w21{
+			/*border: 1px solid red;*/
+			width: 250px;
+			height: 180px;
+			margin-left:180px ;
+			position: absolute;
+		}
+		#fz-w22{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w23{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			float: left;
+			margin-top: 32px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w24{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 170px;
+			float: left;
+			margin-top: 65px;
+			margin-left: -10px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w25{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 175px;
+			margin-top: 58px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w26{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w27{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 60px;
+			margin-top: 78px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w28{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 150px;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w29{
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 130px;
+			position: absolute;
+			list-style: none;
+		}
+		
+		#fz-w30{ 
+			/*border: 1px solid red;*/
+			width: 180px;
+			height: 180px;
+			position: absolute;
+		}
+		#fz-w31{
+			/*border: 1px solid red;*/
+			width: 250px;
+			height: 180px;
+			margin-left:180px ;
+			position: absolute;
+		}
+		#fz-w32{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w33{
+			/*border: 1px solid red;*/
+			height: 20px;
+			width: 250px;
+			float: left;
+			margin-top: 32px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w34{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 170px;
+			float: left;
+			margin-top: 65px;
+			margin-left: -10px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w35{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 175px;
+			margin-top: 58px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w36{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w37{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 60px;
+			margin-top: 78px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w38{
+			/*border: 1px solid red;*/
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-left: 150px;
+			margin-top: 90px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-w39{
+			height: 25px;
+			width: 70px;
+			float: left;
+			margin-top: 130px;
+			position: absolute;
+			list-style: none;
+		}
+		#fz-cc2{
+			text-align: center;
+			text-decoration: none;
+			color: black;
+			margin-left: -125px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		#fz-cc3{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+		}
+		#fz-cc4{
+			color: darkgray;
+			font-size: 12px;
+			list-style: none;
+		}
+		#fz-cc5{
+			color: darkred;
+			font-size: 15px;
+			list-style: none;
+		}
+		#fz-cc6{
+			color: darkred;
+			font-size: 25px;
+			list-style: none;
+			margin-top: 10px;
+			font-family: "微软雅黑";
+		}
+		#fz-cc7{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+			text-decoration: line-through;
+		}
+		#fz-cc8{
+			width: 120px;
+			height: 30px;
+			background: #be4141;
+			list-style: none;
+			border-radius:5px ;
+			text-align: center;
+		}
+		#fz-cc8 a{
+			text-decoration: none;
+			color: white;
+			font-family: '微软雅黑';
+			font-size: 20px;"
+		}
+		#fz-cc9{
+			text-align: center;
+			text-decoration: none;
+			color: black;
+			margin-left: -125px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		#fz-cc10{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+		}
+		#fz-cc11{
+			color: darkgray;
+			font-size: 12px;
+			list-style: none;
+		}
+		#fz-cc12{
+			color: darkred;
+			font-size: 15px;
+			list-style: none;
+		}
+		#fz-cc13{
+			color: darkred;
+			font-size: 25px;
+			list-style: none;
+			margin-top: 10px;
+			font-family: "微软雅黑";
+		}
+		#fz-cc14{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+			text-decoration: line-through;
+		}
+		#fz-cc15{
+			width: 120px;
+			height: 30px;
+			background: #be4141;
+			list-style: none;
+			border-radius:5px ;
+			text-align: center;
+		}
+		#fz-cc15 a{
+			text-decoration: none;
+			color: white;
+			font-family: '微软雅黑';
+			font-size: 20px;"
+		}
+		#fz-cc16{
+			text-align: center;
+			text-decoration: none;
+			color: black;
+			margin-left: -125px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		#fz-cc17{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+		}
+		#fz-cc18{
+			color: darkgray;
+			font-size: 12px;
+			list-style: none;
+		}
+		#fz-cc19{
+			color: darkred;
+			font-size: 15px;
+			list-style: none;
+		}
+		#fz-cc20{
+			color: darkred;
+			font-size: 25px;
+			list-style: none;
+			margin-top: 10px;
+			font-family: "微软雅黑";
+		}
+		#fz-cc21{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+			text-decoration: line-through;
+		}
+		#fz-cc22{
+			width: 120px;
+			height: 30px;
+			background: #be4141;
+			list-style: none;
+			border-radius:5px ;
+			text-align: center;
+		}
+		#fz-cc22 a{
+			text-decoration: none;
+			color: white;
+			font-family: '微软雅黑';
+			font-size: 20px;"
+		}
+		#fz-cc23{
+			text-align: center;
+			text-decoration: none;
+			color: black;
+			margin-left: -125px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		#fz-cc24{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+		}
+		#fz-cc25{
+			color: darkgray;
+			font-size: 12px;
+			list-style: none;
+		}
+		#fz-cc26{
+			color: darkred;
+			font-size: 15px;
+			list-style: none;
+		}
+		#fz-cc27{
+			color: darkred;
+			font-size: 25px;
+			list-style: none;
+			margin-top: 10px;
+			font-family: "微软雅黑";
+		}
+		#fz-cc28{
+			color: darkgray;
+			font-size: 14px;
+			list-style: none;
+			text-decoration: line-through;
+		}
+		#fz-cc29{
+			width: 120px;
+			height: 30px;
+			background: #be4141;
+			list-style: none;
+			border-radius:5px ;
+			text-align: center;
+		}
+		#fz-cc29 a{
+			text-decoration: none;
+			color: white;
+			font-family: '微软雅黑';
+			font-size: 20px;"
+		}
+		/*#fz-cc30{
+			color: goldenrod;
+			list-style: none;
+			font-family: "微软雅黑";
+			font-size: 25px;
+			margin-left: 70px;
+			margin-top: -220px;
+			z-index: 1;
+		}*/
+		#fz-cc31{
+			color: #b5a17a;
+			margin-top: -280px;
+			margin-left: 100px;
+			list-style: none;
+			position: absolute;
+		}
+		#fz-cc32{
+			font-family: "微软雅黑";
+			color: #b5a17a;
+			margin-top: -245px;
+			margin-left: 70px;
+			list-style: none;
+			position: absolute;
+		}
+		#fz-cc34{
+			background: goldenrod;
+			text-decoration: none;
+			font-size: 10px;
+			border-radius:10% ;
+			color: white;
+		}
+		#hour{
+			height: 30px;
+			width: 30px;
+			background-color: #b5a17a;
+			float: left;
+			margin-left: 60px;
+			margin-top: 200px;
+			line-height: 30px;
+			font-family: "微软雅黑";
+			position: absolute;
+			}
+		#min{
+			height: 30px;
+			width: 30px;
+			background-color: #b5a17a;
+			float: left;
+			margin-left: 100px;
+			margin-top: 200px;
+			line-height: 30px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		#son{
+			height: 30px;
+			width: 30px;
+			background-color: #b5a17a;
+			float: left;
+			margin-left: 140px;
+			margin-top: 200px;
+			line-height: 30px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		#time1{
+			margin-left: 92px;
+			margin-top: 205px;
+			float: left;
+			position: absolute;
+		}
+		#time2{
+			margin-left: 132px;
+			margin-top: 205px;
+			float: left;
+			position: absolute;
+		}
+		
+		
+		#img{
+			border: 1px solid red;
+		}
+		#img1{
+			background-repeat: no-repeat;
+			margin-left: -280px;
+		}
+		
+		#img2{
+			background-repeat: no-repeat;
+			margin-left: -280px;
+		}
+		#img3{
+			background-repeat: no-repeat;
+			margin-left: -280px;
+		}
+		#img4{
+			background-repeat: no-repeat;
+			margin-left: -280px;
+		}
+		#fz-w img:hover{
+			transform: scale(1.05);
+		}
+		#fz-w10 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-w20 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-w30 img:hover{
+			transform: scale(1.05);
+		}
+		/*#fz-ee2 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-ee4 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-ee6 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-ee8 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-hh2 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-hh4 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-hh6 img:hover{
+			transform: scale(1.05);
+		}
+		#fz-hh8 img:hover{
+			transform: scale(1.05);
+		}*/
+		img{
+			transition: all 1s;
+		}
+		
+		
+	
+		
+		
+		
+		
+		
+		

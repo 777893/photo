@@ -1,0 +1,201 @@
+<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		#zjhtese{
+			width: 1920px;
+			height: 800px;
+			border: 0px solid white;
+		}
+		#zjhtesetop{
+			width: 1090px;
+			height: 70px;
+			margin-left: 400px;
+		}
+		#zjhtesezi{
+			width: 100px;
+			height: 70px;
+			font-size: 30px;
+			line-height: 70px;
+			float: left;
+		}
+		#zjhteseright{
+			width: 450px;
+			height: 50px;
+			float: left;
+			margin-left: 460px;
+			margin-top: 25px;
+		}
+		li{
+			list-style: none;
+			float: left;
+			margin-left: 20px;
+			margin-top: 30px;
+			font-size: 15px;
+		}
+		#zjhchakan{
+			margin-top: 30px;
+			float: left;
+		}
+		#zjhtupian{
+			width: 1090px;
+			height: 310px;
+			margin-left: 400px;
+		}
+		#zjhtupian4{
+			width: 1090px;
+			height: 265px;
+			margin-left: 400px;
+			margin-top: 20px;
+		}
+		#zjhtupian1{
+			width: 265px;
+			height: 265px;
+			float: left;
+			background-color: aliceblue;
+			overflow: hidden;
+		}
+		#zjhxiaozi{
+			position: absolute;
+			z-index: 1;
+			color: chocolate;
+			border: 1px solid chocolate;
+			width: 70px;
+			height:20px;
+			text-align: center;
+			line-height: 20px;
+			border-radius: 5px;
+			margin-top: -250px;
+		}
+		#zjhxiaozigg{
+			z-index: 1;
+			width: 85px;
+			height: 20px;
+			border: 1px solid chocolate;
+			border-radius: 5px;
+			margin: 10px;
+			color: chocolate;
+			margin-top: -250px;
+		}
+		#zjhtupian4 img{
+			transition: 1s;
+			
+		}
+		#zjhtupian4 img{
+			transition: 1s;
+			
+		}
+		#zjhtupian4 img:hover{
+			transform: scale(1.1);
+		}
+		#zjhtese a{
+			text-decoration: none;
+		}
+		#zjhtesetop font:hover{
+			color: chocolate;
+		}
+		#zjhwenzi{
+			width: 1090px;
+			height: 100px;
+			margin-left: 400px;
+		}
+		#zjha1,#zjha2,#zjha3,#zjha4{
+			width: 260px;
+			height: 70px;
+			float: left;
+			font-size: 14px;
+			font-weight: 900;
+			padding-top:30px ;
+
+		}
+		#zjha,#zjhb,#zjhc,#zjhd{
+			text-align: center;
+		}
+		#zjha a,#zjhb a,#zjhc a,#zjhd a{
+			color: black;
+		}
+		#zjhzi{
+			color: red;
+			text-align: center;
+			font-size: 15px;
+		}
+		#zjha a:hover,#zjhb a:hover,#zjhc a:hover,#zjhd a:hover{
+			color:chocolate;
+		}
+		
+		
+		
+		
+		
+		#zjhpinpai{
+			width: 1920px;
+			height: 500px;
+		}
+		#zjhpinpaitop{
+			width: 1920px;
+			height: 100px;
+			margin-left: 400px;
+		}
+		#zjhpinpaitop1{
+			width: 150px;
+			height: 100px;
+			font-size: 28px;
+			font-weight: 900;
+			line-height: 100px;
+			float: left;
+			
+		}
+		#zjhpinpaitop1 a{
+			text-decoration: none;
+			color: #000000;
+		}
+		#zjhpinpaitop2{
+			width: 240px;
+			height: 50px;
+			float: left;
+			margin-left: 20px;
+			line-height: 50px;
+			margin-top: 30px;
+		}
+		#zjhpinpaitop3{
+			width: 120px;
+			height: 20px;
+			float: left;
+			margin-left: 550px;
+			margin-top: 60px;
+		}
+		#zjhpinpaitop3 a{
+			color: #000000;
+		}
+		#zjhpinpaitop1 a:hover,#zjhpinpaitop3 a:hover{
+			color: chocolate;
+		}
+		#zjhpinpaibody{
+			width: 1090px;
+			height: 400px;
+			margin-left: 400px;
+		}
+		
+		#zjhpinpaibody1,#zjhpinpaibody2,#zjhpinpaibody3{
+			width: 350px;
+			height: 350px;
+			float: left;
+		}
+		#img1,#img2,#img3,#img4{
+			transition: 1s;
+		}
+		#zjhpinpaibody1:hover #img1{
+			transform: scale(1.1);
+		}
+		#zjhpinpaibody2:hover #img2{
+			transform: scale(1.1);
+		}
+		#zjhpinpaia:hover #img3{
+			transform: scale(1.1);
+		}
+		#zjhpinpaib:hover #img4{
+			transform: scale(1.1);
+		}
+		
+	</style>
